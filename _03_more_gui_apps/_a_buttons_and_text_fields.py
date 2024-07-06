@@ -15,6 +15,7 @@ class ButtonsAndTextFields(tk.Tk):
         super().__init__()
 
         # Add a label
+
         self.label = tk.Label(self, bg='green', font=('Rockwell', 20, 'normal', 'underline'))
         self.label.place(relx=0.1, rely=0.1, relwidth=0.8, relheight=0.3)
 

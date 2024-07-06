@@ -52,14 +52,24 @@ class FirstApp(tk.Tk):
 
         # TODO 8) Place the label somewhere on your app
 
+        self.other_label.place(relx=0.1, rely=1, relwidth=0.8, relheight=0.05)
 
 # TODO 9) Create an if __name__ == '__main__': block
 
+
+if __name__ == '__main__':
     # TODO 10) Create an object of your app class
+
+    app = FirstApp()
 
     # TODO 11) Use the app object to set a title
 
+    app.title('app')
+
     # TODO 12) Use the app object to set the window dimensions (width x height)
+
+    app.geometry('500x500')
 
     # TODO 13) Run the app object's mainloop() method
 
+    app.mainloop()
