@@ -1,5 +1,5 @@
 """
-Adding buttons and text fields to tkinter GUI ap
+Adding buttons and text fields to tkinter GUI app
 """
 import tkinter as tk
 from tkinter import messagebox
