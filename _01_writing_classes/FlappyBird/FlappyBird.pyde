@@ -1,5 +1,5 @@
 """
-Create the classic Flappy Bird game!
+Create the classic Flappy Bird game!!
 """
 # 0. Do the other exercises in this folder before starting this one!
 global bg, bird, lower_pipe, upper_pipe, bird_x, bird_y
